@@ -1,40 +1,44 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-
-  --cor-principal: #000000;
-   --cor-verde-agua:#56a204a9;
-   --cor-azul-claro:#009c63;
-   --cor-preto:#000000;
-    --cor-branc0:#01000000;
+    --cor-principal: #4c41df;
+    --cor-verde: #68baa6;
+    --cor-clara: #68baa6;
+    --cor-musgo: #4e8074;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
 }
-#body {  
-    font-family: 'Roboto Mono', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 #body {
-blackground-color: var(--cor-principal);
+    background-color: var(--cor-principal);
+}
+p {
+    color: var(--cor-branco);
 }
 .lead {
-     font-weight: 700;
+    font-weight: 700;
+    color: var(--cor-branco);
 }
 #rodape {
-    blackground-color: var(--cor-preto);
-    color: var(--cor-branc0);
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
 }
 #ancora {
     text-decoration: none;
-    color: var(--cor-branc0);
+    color: var(--cor-branco);
     font-size: 20px;
     transition: color 0.3s ease;
 }
 #ancora:hover {
-    color: var(--cor-azul-claro);
+    color: var(--cor-clara);
     cursor: pointer;
     text-decoration: underline;
 }
 .habilidades:hover .badge {
-   background-color:var(--cor-branc0) 1important;
-   transform: scale(1.05);
-   transition: ;
+    background-color: var(--cor-branco) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
