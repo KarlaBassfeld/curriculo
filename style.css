@@ -4,10 +4,10 @@
 :root {
 
   --cor-principal: #000000;
-   --cor-verde-agua:#ff00c8a9;
-   --cor-azul-claro:#3098a5;
+   --cor-verde-agua:#56a204a9;
+   --cor-azul-claro:#009c63;
    --cor-preto:#000000;
-    --cor-branc0:#ffffff;
+    --cor-branc0:#01000000;
 }
 #body {  
     font-family: 'Roboto Mono', sans-serif;
